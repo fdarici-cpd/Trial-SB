@@ -1,6 +1,7 @@
 public class AccountOperations {
     public static Account setDefaultDescription(Account a) {
-        a.Description = 'Default description 1';
+        /* This is a comment*/
+        a.Description = 'Default description';
         return a;
     }
 }
