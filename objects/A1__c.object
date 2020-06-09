@@ -153,13 +153,22 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Field_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Field 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
     <label>A1</label>
     <nameField>
         <label>A1 Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>A1</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
